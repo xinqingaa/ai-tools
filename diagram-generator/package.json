@@ -1,0 +1,21 @@
+{
+  "name": "@ai-tools/diagram-generator",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Config-driven Markdown diagram generator with deterministic SVG rendering and QA checks.",
+  "type": "module",
+  "bin": {
+    "ai-diagram": "bin/ai-diagram.mjs"
+  },
+  "scripts": {
+    "generate": "node bin/ai-diagram.mjs generate --config examples/proto-bridge.diagram.config.json",
+    "check": "node bin/ai-diagram.mjs check --config examples/proto-bridge.diagram.config.json",
+    "install:browsers": "playwright install chromium"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "playwright": "^1.49.1"
+  }
+}

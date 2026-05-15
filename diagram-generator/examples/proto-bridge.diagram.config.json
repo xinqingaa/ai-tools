@@ -1,0 +1,13 @@
+{
+  "projectName": "ProtoBridge",
+  "workspace": "../../../proto-bridge",
+  "sources": [
+    "../../../proto-bridge/docs/architecture.md",
+    "../../../proto-bridge/docs/workflows.md",
+    "../../../proto-bridge/docs/artifacts.md"
+  ],
+  "diagramCount": 4,
+  "outDir": "../../../proto-bridge/docs/assets/ai-tools-diagrams",
+  "style": "editorial",
+  "strict": true
+}
